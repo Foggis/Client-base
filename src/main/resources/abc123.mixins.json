@@ -6,8 +6,6 @@
 
 	],
 	"mixins": [
-		"GameRendererMixin",
-		"MinecraftMixin",
 		"TitleScreenMixin",
 		"MinecraftMixin2",
 		"MinecraftMixin3"
