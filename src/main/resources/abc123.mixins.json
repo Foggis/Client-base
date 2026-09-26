@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "client.injection",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+
+	],
+	"mixins": [
+		"GameRendererMixin",
+		"MinecraftMixin",
+		"TitleScreenMixin",
+		"MinecraftMixin2",
+		"MinecraftMixin3"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

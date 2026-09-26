@@ -1,0 +1,30 @@
+
+
+
+
+{
+	"schemaVersion": 1,
+	"id": "abc123",
+	"version": "${version}",
+	"name": "abc123",
+	"description": "",
+	"authors": [""],
+	"contact": {
+
+	},
+	"license": "ARR",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["client.Client"]
+	},
+	"mixins": [
+		"abc123.mixins.json"
+	],
+	"accessWidener": "modid.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
